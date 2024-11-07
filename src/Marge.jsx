@@ -9,6 +9,7 @@ import Project from "./Components/Project";
 import React from 'react'
 import Contact from "./Components/Contact";
 import Extra from "./Components/Extra";
+import Footer from "./Components/Footer";
 
 function Merge() {
   return (
@@ -23,6 +24,7 @@ function Merge() {
     {/* <Services /> */}
     <Extra />
     <Contact />
+    <Footer />
     </>
   )
 }

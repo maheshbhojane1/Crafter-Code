@@ -15,7 +15,7 @@ export const EXPERIENCES = [
   {
     year: "10/2024 - Present",
     role: "AI Training Coding Experts",
-    company: "Outlier.",
+    company: "Outlier AI",
     description: `As an AI Training Coding Expert at Outlier, you will play a critical role in enhancing the accuracy and effectiveness of AI models by refining coding prompts and selecting the most appropriate responses. This position involves working closely with coding data, analyzing various programming scenarios, and providing structured feedback to improve AI-driven solutions. You will ensure the AI understands and responds accurately to coding-related queries, ultimately contributing to the advancement of machine learning and AI training systems.
 
 `,
@@ -24,7 +24,7 @@ export const EXPERIENCES = [
   {
     year: "04/2024 - 06/2024",
     role: "Frontend Developer",
-    company: "cognifyz technologies",
+    company: "Cognifyz Technologies",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "JavaScript", "React js", "Node"],
   },
@@ -43,7 +43,7 @@ export const EDUCATION = [
   {
     year: "2019 - 2022",
     degree: "Bachelor of Computer Science",
-    collage: "V.M.V Collage, Malkapur.",
+    collage: "Vidyan Mahavidyalaya, Malkapur.",
     cgpa: `7.8/10`,
     specification: "Computer Science",
   },
@@ -118,7 +118,16 @@ export const EXTRA = [
 ]
 
 export const CONTACT = [
-  {phoneNo: "+91 8830407952 "},
-  {email: "maheshbhojane200@gmail.com"},
-  { address: "Bahekar Nagar, Nandura, Maharashtra, 443404 "},
+  {
+    title: "PhoneNo:",
+    cont: "+91 8830407952 "
+  },
+  {
+    title: "Email Id:",
+    cont: "maheshbhojane200@gmail.com"
+  },
+  {
+    title: "Address:",
+    cont: "Bahekar Nagar, Nandura, Maharashtra, 443404"
+  },
 ];

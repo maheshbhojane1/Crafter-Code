@@ -17,7 +17,7 @@ function Hero() {
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
               {HERO_CONTENT}
             </p>
-            <button className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-1xl tracking-tight text-transparent"><a href="https://drive.google.com/file/d/19kynT8algX6o74SlJtoJtyD7alHbmqHO/view?usp=drive_link">Resume</a></button>
+            <button className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-1xl tracking-tight text-transparent"><a href="https://drive.google.com/file/d/19kynT8algX6o74SlJtoJtyD7alHbmqHO/view?usp=drive_link" target="_blank">Resume</a></button>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">

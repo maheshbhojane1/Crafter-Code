@@ -17,7 +17,7 @@ function Project(){
         </div>
         <div className='w-full max-w-xl lg:w-3/4'>
   
-          <p className="mb-4 text-neutral-400">{pro.description} <a className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800" href={pro.link}>Link</a></p>
+          <p className="mb-4 text-neutral-400">{pro.description} <a className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800" href={pro.link} target="_blank">Link</a></p>
           {pro.technologies.map((tech, index)=>{
             return (
               <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">{tech}</span>

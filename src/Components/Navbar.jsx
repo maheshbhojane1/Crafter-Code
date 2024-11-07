@@ -14,9 +14,9 @@ function Navbar() {
         </div>
 
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-          <a href="https://www.linkedin.com/in/mahesh-bhojane-31ba3a23b/"><FaLinkedin /></a>
-          <a href="https://github.com/maheshbhojane1"><FaGithub /></a>
-          <a href="https://x.com/nftniverse"><FaSquareXTwitter /></a>
+          <a href="https://www.linkedin.com/in/mahesh-bhojane-31ba3a23b/" target="_blank"><FaLinkedin /></a>
+          <a href="https://github.com/maheshbhojane1" target="_blank"><FaGithub /></a>
+          <a href="https://x.com/nftniverse" target="_blank"><FaSquareXTwitter /></a>
         </div>
       </nav>
     </>
