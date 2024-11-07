@@ -119,7 +119,7 @@ export const EXTRA = [
 
 export const CONTACT = [
   {
-    title: "PhoneNo:",
+    title: "Phone No:",
     cont: "+91 8830407952 "
   },
   {
