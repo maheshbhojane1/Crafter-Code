@@ -1,5 +1,5 @@
 import React from "react";
-import Marge from "./Marge";
+import Merge from "./Merge";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       </div>
       <div className="container mx-auto px-8">
 
-        <Marge />
+        <Merge />
 
       </div>
     </div>
