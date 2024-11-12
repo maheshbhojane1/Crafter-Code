@@ -3,6 +3,7 @@ import logo from "../assets/logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -17,6 +18,7 @@ function Navbar() {
           <a href="https://www.linkedin.com/in/mahesh-bhojane-31ba3a23b/" target="_blank"><FaLinkedin /></a>
           <a href="https://github.com/maheshbhojane1" target="_blank"><FaGithub /></a>
           <a href="https://x.com/nftniverse" target="_blank"><FaSquareXTwitter /></a>
+          <a href="https://x.com/nftniverse" target="_blank"><FaDiscord /></a>
         </div>
       </nav>
     </>
