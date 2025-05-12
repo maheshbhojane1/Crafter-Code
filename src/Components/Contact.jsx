@@ -8,11 +8,7 @@ function Contact() {
       <div className='mb-1'>
         {CONTACT.map((con, index)=>{
           return (
-          // <div key={index} className='flex flex-wrap  justify-evenly'>
-          //    <h3>Email Id:{con.email}</h3> 
-          //     <h3>Phone No:{con.phoneNo}</h3>
-          //     <h3>Adress:{con.address}</h3>
-          // </div>
+
           <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
         <div className='w-full lg:w-1/4'>
         <h5 className='mb-2 font-semibold text-neutral-300'>{con.title}</h5>

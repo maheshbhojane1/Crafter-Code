@@ -7,8 +7,9 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoTailwindCss  } from "react-icons/bi";
 import { BiLogoWordpress  } from "react-icons/bi";
 import { BiLogoRedux } from "react-icons/bi";
-// import { BiLogoPython } from "react-icons/bi";
-// import { BiLogoAws } from "react-icons/bi";
+import { BiLogoPython } from "react-icons/bi";
+import { BiLogoFirebase } from "react-icons/bi";
+import { BiLogoShopify } from "react-icons/bi";
 
 
 
@@ -21,7 +22,13 @@ function Technologies() {
           <BiLogoJavascript  className="text-7xl text-yellow-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <BiLogoPython  className="text-7xl text-yellow-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <RiReactjsLine className="text-7xl text-cyan-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <BiLogoFirebase  className="text-7xl text-white-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <BiLogoRedux className="text-7xl text-purple-400" />
@@ -40,6 +47,9 @@ function Technologies() {
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <BiLogoWordpress  className="text-7xl text-white-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <BiLogoShopify  className="text-7xl text-white-400" />
         </div>
       </div>
     </div>
